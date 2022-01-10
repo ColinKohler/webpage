@@ -7,35 +7,153 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Personal Webpage
-email: colink78@gmail.com 
-description: test description 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+locale                   : "en-US"
+title                    : "Colin Kohler"
+title_separator          : "|"
+name                     : "Colin Kohler"
+description              : "test description"
+url                      : https://colinkohler.github.io 
+baseurl                  : "/webpage"
+repository               : "ColinKohler/webpage"
+teaser                   : #
+words_per_minute         : 200
+comments:
+  provider               : "staticman"
+  disqus:
+    shortname            : #
+  discourse:
+    server               : #
+  facebook:
+    appid                : #
+    num_posts            : #
+    colorscheme          : #
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path                   : # blank (default) uses feed.xml
 
-# Build settings
+# Social settings
+twitter:
+  username               : #
+facebook:
+  username               : #
+  app_id                 : #
+  publisher              : #
+og_image                 : "site-logo.png"
+social:
+  type                   : #
+  name                   : #
+  links:
+
+
+# Site Author
+author:
+  name                   : "Colin Kohler"
+  avatar                 : "/assets/images/avatar.jpg"
+  bio                    : "I am a stick."
+  location               : "Boston, MA" 
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:colink78@gmail.com"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ColinKohler"
+    - label: "LinkedIn"
+      icon: "gab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/colin-kohler-217922109/"
+    - label: "Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=QuFhQt0AAAAJ"
+    - label: "Instrgram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/just_one_peanut_butter_square/"
+
+# Reading files
+include:
+  - _pages
+
+# Defaults
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Conversion 
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+whilelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
