@@ -94,6 +94,7 @@ include:
   - _pages
 
 # Defaults
+defaults:
   # _posts
   - scope:
       path: ""
