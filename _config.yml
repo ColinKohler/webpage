@@ -93,6 +93,15 @@ author:
 include:
   - _pages
 
+# Collections
+collections:
+  food:
+    output: true
+    permalink: /:collection/:path/
+  diy:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -110,6 +119,20 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _food
+  - scope:
+      path: ""
+      type: food
+    values:
+      layout: single
+      author_profile: true
+  # _diy 
+  - scope:
+      path: ""
+      type: diy 
     values:
       layout: single
       author_profile: true
