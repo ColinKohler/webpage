@@ -150,6 +150,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-pdf-embed
 
 whilelist:
   - jekyll-paginate
@@ -158,3 +159,4 @@ whilelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-pdf-embed
