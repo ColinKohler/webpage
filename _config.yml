@@ -52,6 +52,10 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+search                   : true
+search_full_content      : true
+search_provider          : lunr 
+
 # Social settings
 twitter:
   username               : #
@@ -93,12 +97,15 @@ author:
 include:
   - _pages
 
-# Collections
+# collections
 collections:
   food:
     output: true
     permalink: /:collection/:path/
   diy:
+    output: true
+    permalink: /:collection/:path/
+  writing:
     output: true
     permalink: /:collection/:path/
 
@@ -133,6 +140,13 @@ defaults:
   - scope:
       path: ""
       type: diy 
+    values:
+      layout: single
+      author_profile: true
+  # _writing
+  - scope:
+      path: ""
+      type: writing
     values:
       layout: single
       author_profile: true
