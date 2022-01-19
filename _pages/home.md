@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.5 
   overlay_image: /assets/images/splash_1_crop_resize.jpg
 intro:
-  - excerpt: 'This is a text excerpt'
+  - excerpt: '“Having no destination, I am never lost.” ― Ikkyu'
 feature_row:
   - image_path: assets/images/splash_1.jpg
     alt: "splash_2"
