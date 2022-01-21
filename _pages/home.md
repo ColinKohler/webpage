@@ -8,21 +8,18 @@ header:
 intro:
   - excerpt: '“Having no destination, I am never lost.” ― Ikkyu'
 feature_row:
-  - image_path: assets/images/splash_1.jpg
-    alt: "splash_2"
-    title: "Placeholder 1"
-    excerpt: "Layout testing Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. 
-              Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin."
-  - image_path: assets/images/splash_2.jpg
-    alt: "splash_2"
-    title: "Placeholder 2"
-    excerpt: "Layout testing Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. 
-              Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin."
-  - image_path: assets/images/splash_2.jpg
-    alt: "splash_2"
-    title: "Placeholder 3"
-    excerpt: "Layout testing Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. 
-              Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin."
+  - image_path: assets/images/helping_hands_lab.jpg
+    alt: "Helping Hands Lab"
+    title: "Helping Hands Lab"
+    excerpt: ""
+  - image_path: assets/images/valk_crop.jpg
+    alt: ""
+    title: "Robots"
+    excerpt: ""
+  - image_path: assets/images/cats.jpg
+    alt: "Cats"
+    title: "My Cats"
+    excerpt: ""
 ---
 
 {% include feature_row id="intro" type="center" %}
