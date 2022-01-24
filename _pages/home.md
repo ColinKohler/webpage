@@ -12,7 +12,7 @@ feature_row:
     alt: "Helping Hands Lab"
     title: "Helping Hands Lab"
     excerpt: ""
-  - image_path: assets/images/valk_crop.jpg
+  - image_path: assets/images/splash_1.jpg
     alt: ""
     title: "Robots"
     excerpt: ""
