@@ -15,7 +15,8 @@ personal_1:
     title: "Food and Drink"
     excerpt: 'Henry David Thoreau once said the purpose of life was “…to live deep and suck out all the marrow of life”. He then decided 
               the best way to do this was to go live in the woods like a hermit. Following the literal interpretation rather than the spirit,
-              I try to create the best food and drink that I can. Remember, life is too short to eat boring things.'
+              I try to [create](https://www.instagram.com/just_one_peanut_butter_square/) the best food and drink that I can. Remember, life 
+              is too short to eat bland and boring.'
 personal_2:
   - image_path: assets/images/skiing.jpg
     alt: "Skiing"
@@ -30,5 +31,3 @@ my doctorate in Computer Science with a focus on robotics and AI.
 
 {% include feature_row id="robotics" type="left" %}
 {% include feature_row id="personal_1" type="right" %}
-{% include feature_row id="personal_2" type="left" %}
-
