@@ -99,16 +99,7 @@ include:
 
 # collections
 collections:
-  Food:
-    output: true
-    permalink: /:collection/:path/
-  DIY:
-    output: true
-    permalink: /:collection/:path/
-  Writing:
-    output: true
-    permalink: /:collection/:path/
-  Research:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -132,33 +123,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _Food
+  # _research
   - scope:
       path: ""
-      type: Food
+      type: research
     values:
       layout: single
-      author_profile: true
-  # _DIY 
-  - scope:
-      path: ""
-      type: DIY 
-    values:
-      layout: single
-      author_profile: true
-  # _Writing
-  - scope:
-      path: ""
-      type: Writing
-    values:
-      layout: single
-      author_profile: true
-  # _Research
-  - scope:
-      path: ""
-      type: Research
-    values:
-      layout: single
+      classes: wide
       author_profile: true
 
 # Conversion 
