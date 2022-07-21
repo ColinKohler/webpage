@@ -1,5 +1,6 @@
 ---
 title: "Towards Assistive Robotic Pick and Place in Open World Environments"
+date: 2020-07-25
 ---
 **Abstract:** Assistive robot manipulators must be able to autonomously pick and place a wide range of
 novel objects to be truly useful. However, current assistive robots lack this capability. Additionally, 

@@ -1,5 +1,6 @@
 ---
 title: "Deictic Image Maps: An Abstraction For Learning Pose Invariant Manipulation Policies"
+date: 2020-07-20
 ---
 **Abstract:**  In applications of deep reinforcement learning to robotics, it is often the case that we want 
 to learn pose invariant policies: policies that are invariant to changes in the position and orientation of 

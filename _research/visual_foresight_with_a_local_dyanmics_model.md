@@ -1,5 +1,6 @@
 ---
 title: "Visual Foresight with a Local Dynamics Model"
+date: 2022-07-21
 ---
 **Abstract:** Model-free policy learning has been shown to be capable of learning manipulation policies which 
 can solve long-time horizon tasks using single-step manipulation primitives. However, training these policies 

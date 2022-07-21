@@ -1,5 +1,6 @@
 ---
 title: "Policy learning in SE(3) action spaces"
+date: 2021-07-20
 ---
 **Abstract**: In the spatial action representation, the action space spans the space of target poses for 
 robot motion commands, i.e. SE(2) or SE(3). This approach has been used to solve challenging robotic 

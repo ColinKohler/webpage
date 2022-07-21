@@ -1,5 +1,6 @@
 ---
 title: "BulletArm: An Open-Source Robotic Manipulation Benchmark and Learning Framework"
+date: 2022-07-20
 ---
 **Abstract:** We present BulletArm, a novel benchmark and learning-environment for robotic manipulation.
 BulletArm is designed around two key principles: reproducibility and extensibility. We aim to encourage 
