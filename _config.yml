@@ -96,12 +96,12 @@ author:
 # Reading files
 include:
   - _pages
+  - _includes
 
 # collections
 collections:
   research:
-    output: true
-    permalink: /:collection/:path/
+    output: false
 
 # Defaults
 defaults:
